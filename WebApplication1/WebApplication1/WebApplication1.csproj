@@ -121,6 +121,7 @@
     <Compile Include="App_Start\BundleConfig2.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\adsdasdasdasdasdasdsadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\sasdController.cs" />
     <Compile Include="Controllers\TestingController.cs" />
@@ -171,7 +172,7 @@
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\sasd\" />
-
+    <Folder Include="Views\adsdasdasdasdasdasdsad\" />
     <Folder Include="Views\Testing\" />
 
   </ItemGroup>
