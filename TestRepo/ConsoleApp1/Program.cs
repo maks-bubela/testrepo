@@ -54,10 +54,7 @@ namespace ConsoleApp1
             Console.WriteLine("1. Знайти НСД чисел по алгоритму Евклiда.\n");
             Console.WriteLine($"({589}, {343}) = {EuclidAlgorithm(589, 343, 589 - 343)}");
             Console.WriteLine($"({987}, {610}) = {EuclidAlgorithm(987, 610, 987 - 610)}");
-            Console.WriteLine($"({2584}, {377}) = {EuclidAlgorithm(2584, 377, 2584 - 377)}");
-            Console.WriteLine($"({9751}, {6931}) = {EuclidAlgorithm(2700, 1520, 2700 - 1520)}");
-            Console.WriteLine($"({9665}, {2180}) = {EuclidAlgorithm(9665, 2180, 9665 - 2180)}");
-            Console.WriteLine($"({10946}, {2584}) = {EuclidAlgorithm(10946, 2584, 10946 - 2584)}");
+
 
             Console.WriteLine("\n2. Нехай d = (a,b). Знайти всi цiлi числа x такi, що ax + by = d.\n");
 
@@ -65,7 +62,7 @@ namespace ConsoleApp1
             Console.WriteLine($"1) ({70},{33}): x = {result['x']}, y = {result['y']}, НСД({70},{33}) = {result['d']}." +
                 $"\n   Множини усiх x: x = {result['x']}{(33 / result['d']).ToString("+0;-#")}k;\n" +
                 $"   Множини усiх y: y = {result['y']}{((70 / result['d']) * (-1)).ToString("+0;-#")}k.\n");
-
+            // gwfwkuhgvuwehiheuivdusdvioduich oioigosdigghk  jhuhsdiughisdghoisduh
             result = LinearDiophantineEquation(60, 91);
             Console.WriteLine($"2) ({60},{91}): x = {result['x']}, y = {result['y']}, НСД({60},{91}) = {result['d']}." +
                 $"\n   Множини усiх x: x = {result['x']}{(91 / result['d']).ToString("+0;-#")}k;\n" +
@@ -81,15 +78,6 @@ namespace ConsoleApp1
                 $"\n   Множини усiх x: x = {result['x']}{(17 / result['d']).ToString("+0;-#")}k;\n" +
                 $"   Множини усiх y: y = {result['y']}{((13 / result['d']) * (-1)).ToString("+0;-#")}k.\n");
 
-            result = LinearDiophantineEquation(144, 233);
-            Console.WriteLine($"5) ({144},{233}): x = {result['x']}, y = {result['y']}, НСД({144},{233}) = {result['d']}." +
-                $"\n   Множини усiх x: x = {result['x']}{(233 / result['d']).ToString("+0;-#")}k;\n" +
-                $"   Множини усiх y: y = {result['y']}{((144 / result['d']) * (-1)).ToString("+0;-#")}k.\n");
-
-            result = LinearDiophantineEquation(1263, 204);
-            Console.WriteLine($"6) ({1263},{204}): x = {result['x']}, y = {result['y']}, НСД({1263},{204}) = {result['d']}." +
-                $"\n   Множини усiх x: x = {result['x']}{(204 / result['d']).ToString("+0;-#")}k;\n" +
-                $"   Множини усiх y: y = {result['y']}{((1263 / result['d']) * (-1)).ToString("+0;-#")}k.\n");
 
             result = LinearDiophantineEquation(504, 726);
             Console.WriteLine($"7) ({504},{726}): x = {result['x']}, y = {result['y']}, НСД({504},{726}) = {result['d']}." +
