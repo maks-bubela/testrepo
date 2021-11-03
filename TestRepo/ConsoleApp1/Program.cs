@@ -59,7 +59,7 @@ namespace ConsoleApp1
             Console.WriteLine($"({9665}, {2180}) = {EuclidAlgorithm(9665, 2180, 9665 - 2180)}");
             Console.WriteLine($"({10946}, {2584}) = {EuclidAlgorithm(10946, 2584, 10946 - 2584)}");
 
-            Console.WriteLine("\n2. Нехай d = (a,b). Знайти всi цiлi числа x такi, що ax + by = d.\n");
+            //Console.WriteLine("\n2. Нехай d = (a,b). Знайти всi цiлi числа x такi, що ax + by = d.\n");
 
             var result = LinearDiophantineEquation(70, 33);
             Console.WriteLine($"1) ({70},{33}): x = {result['x']}, y = {result['y']}, НСД({70},{33}) = {result['d']}." +
